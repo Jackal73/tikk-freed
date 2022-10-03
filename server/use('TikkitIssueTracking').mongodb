@@ -1,0 +1,4 @@
+use('TikkitIssueTracking')
+
+db.users.find()
+db.users.createIndex({email: 1},{unique:true})
